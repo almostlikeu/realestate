@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell | mypropsearch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+
+    <nav class="nav-top w-full px-6 py-4 md:px-12 flex justify-between items-center">
+        <a href="index.html" class="logo-text">mypropsearch</a>
+        <a href="contact.html" class="btn-solid">Contact Us</a>
+    </nav>
+    <nav class="nav-bottom w-full px-6 py-4 md:px-12 flex justify-center md:justify-start gap-6 md:gap-10 overflow-x-auto">
+        <a href="buy.html" class="subnav-link">BUY</a>
+        <a href="sell.html" class="subnav-link active">SELL</a>
+        <a href="off-plan.html" class="subnav-link">OFF-PLAN PROPERTIES</a>
+        <a href="#" class="subnav-link">WHAT'S NEW IN DUBAI</a>
+        <a href="#" class="subnav-link">VISA THROUGH PROPERTY</a>
+    </nav>
+
+    <main class="max-w-2xl mx-auto px-6 py-16 text-center">
+        <h1 class="serif text-4xl mb-6 text-[#333333]">List Your Property</h1>
+        <p class="text-gray-600 mb-10">Get an accurate, data-backed valuation from our area specialists.</p>
+        
+        <form class="space-y-6 text-left intent-card p-8 rounded-md hover:transform-none">
+            <input type="text" placeholder="Community / Building Name" class="w-full padding p-3 border border-gray-300 outline-none focus:border-[--brand-teal]" required>
+            <div class="grid grid-cols-2 gap-4">
+                <select class="w-full p-3 border border-gray-300 outline-none bg-white focus:border-[--brand-teal]">
+                    <option>Property Type</option>
+                    <option>Apartment</option>
+                    <option>Villa / Townhouse</option>
+                </select>
+                <input type="number" placeholder="Bedrooms" class="w-full p-3 border border-gray-300 outline-none focus:border-[--brand-teal]" required>
+            </div>
+            <input type="tel" placeholder="Phone Number" class="w-full p-3 border border-gray-300 outline-none focus:border-[--brand-teal]" required>
+            <button type="submit" class="btn-solid w-full mt-4 py-3">Request Valuation</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

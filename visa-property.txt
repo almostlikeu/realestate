@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Through Property | mypropsearch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased bg-white">
+
+    <nav class="nav-top w-full px-6 py-4 md:px-12 flex justify-between items-center">
+        <a href="index.html" class="logo-text">mypropsearch</a>
+        <a href="contact.html" class="btn-solid">Contact Us</a>
+    </nav>
+    <nav class="nav-bottom w-full px-6 py-4 md:px-12 flex justify-center md:justify-start gap-6 md:gap-10 overflow-x-auto">
+        <a href="buy.html" class="subnav-link">BUY</a>
+        <a href="sell.html" class="subnav-link">SELL</a>
+        <a href="off-plan.html" class="subnav-link">OFF-PLAN PROPERTIES</a>
+        <a href="whats-new.html" class="subnav-link">WHAT'S NEW IN DUBAI</a>
+        <a href="visa-property.html" class="subnav-link active">VISA THROUGH PROPERTY</a>
+    </nav>
+
+    <!-- Article Header -->
+    <header class="w-full bg-[#F0F0F0] py-20 px-6 text-center border-b border-gray-200">
+        <p class="text-[--brand-teal] font-semibold tracking-widest uppercase text-sm mb-4">Investment Guide</p>
+        <h1 class="serif text-4xl md:text-6xl text-[#333333] mb-6 max-w-4xl mx-auto leading-tight">Securing UAE Residency Through Real Estate</h1>
+        <p class="text-gray-600 text-lg max-w-2xl mx-auto">A comprehensive breakdown of the UAE Golden Visa and Property Investor Visa programs for international buyers.</p>
+    </header>
+
+    <!-- Article Content -->
+    <main class="max-w-3xl mx-auto px-6 py-16">
+        <article class="prose prose-lg text-gray-700 font-sans leading-relaxed">
+            
+            <h2 class="serif text-3xl text-gray-900 mb-6 border-b pb-4">1. The 10-Year UAE Golden Visa</h2>
+            <p class="mb-6">The UAE Golden Visa is a long-term residence visa which enables foreign talents to live, work, or study in the UAE while enjoying exclusive benefits. For real estate investors, it represents the most highly sought-after residency option.</p>
+            
+            <div class="bg-gray-50 p-6 rounded-sm border border-gray-200 mb-8">
+                <h3 class="font-semibold text-gray-900 mb-4 uppercase tracking-wider text-sm">Key Requirements:</h3>
+                <ul class="space-y-3">
+                    <li><i class="fas fa-check text-[--brand-teal] mr-2"></i><strong>Minimum Investment:</strong> AED 2,000,000 (approx. $545,000 USD).</li>
+                    <li><i class="fas fa-check text-[--brand-teal] mr-2"></i><strong>Property Type:</strong> Can be ready/secondary market or off-plan properties.</li>
+                    <li><i class="fas fa-check text-[--brand-teal] mr-2"></i><strong>Mortgage Rule:</strong> The property can be mortgaged, provided the bank provides a NOC or if the investor's equity meets the 2M threshold.</li>
+                </ul>
+            </div>
+
+            <h2 class="serif text-3xl text-gray-900 mb-6 border-b pb-4 mt-12">2. The 2-Year Property Investor Visa</h2>
+            <p class="mb-6">For investors looking for a more accessible entry point into the Dubai market, the 2-Year Investor Visa provides renewable residency rights linked to property ownership.</p>
+            
+            <div class="bg-gray-50 p-6 rounded-sm border border-gray-200 mb-8">
+                <h3 class="font-semibold text-gray-900 mb-4 uppercase tracking-wider text-sm">Key Requirements:</h3>
+                <ul class="space-y-3">
+                    <li><i class="fas fa-check text-[--brand-teal] mr-2"></i><strong>Minimum Investment:</strong> AED 750,000 (approx. $205,000 USD).</li>
+                    <li><i class="fas fa-check text-[--brand-teal] mr-2"></i><strong>Property Type:</strong> Must be a ready, residential property (off-plan is not eligible for this specific tier).</li>
+                    <li><i class="fas fa-check text-[--brand-teal] mr-2"></i><strong>Spouse & Dependents:</strong> Allows the investor to sponsor their family members.</li>
+                </ul>
+            </div>
+
+            <div class="mt-16 text-center">
+                <p class="text-gray-900 font-medium mb-6">Ready to find a visa-eligible property?</p>
+                <a href="buy.html" class="btn-solid inline-block">Browse Eligible Properties</a>
+            </div>
+            
+        </article>
+    </main>
+</body>
+</html>
